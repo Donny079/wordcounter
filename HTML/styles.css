@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6e3; /* Warm light background */
+    color: #333;
+    background-image: url('https://www.transparenttextures.com/patterns/holiday-sparkles.png');
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    border: 2px solid #d32f2f; /* Christmas red border */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #d32f2f; /* Christmas red */
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    border: 1px solid #8c9eff; /* Frosty blue */
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    background-color: #f3f4f7; /* Subtle frosted background */
+  }
+  
+  textarea:focus {
+    border-color: #388e3c; /* Christmas green focus */
+    outline: none;
+  }
+  
+  .results {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .results p {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #444;
+  }
+  
+  span {
+    font-weight: bold;
+    color: #d32f2f; /* Christmas red */
+  }
+  
+  .container::before {
+    content: '🎄';
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .container::after {
+    content: '🎅✨';
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
